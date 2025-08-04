@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Creating backend for URL-shortening application using Node.js and express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharonjbr/URL-shortening.git"
+  },
+  "keywords": [
+    "url",
+    "shortener",
+    "link",
+    "nodejs"
+  ],
+  "author": "Sharon (Shirin)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sharonjbr/URL-shortening/issues"
+  },
+  "homepage": "https://github.com/sharonjbr/URL-shortening#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
