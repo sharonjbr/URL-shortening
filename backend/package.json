@@ -4,7 +4,9 @@
   "description": "Creating backend for URL-shortening application using Node.js and express",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev":   "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,10 @@
   },
   "homepage": "https://github.com/sharonjbr/URL-shortening#readme",
   "dependencies": {
+    "dotenv": "^17.2.1",
     "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
